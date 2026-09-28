@@ -18,6 +18,9 @@ SQLite database.
 - Menu-driven console interface with input validation (rejects non-numeric
   input and empty text where a value is required).
 - Data is stored in a SQLite database file, so it persists between runs.
+- Comes preloaded with sample data (5 students, 3 courses, 10 enrollments
+  with marks) the first time you run it, so there's something to see and
+  test right away.
 
 ## Technologies / Libraries Used
 
@@ -114,7 +117,8 @@ java -cp "out:sqlite-jdbc-3.46.1.3.jar" com.sms.Main
 ```
 
 The database file `student_management.db` is created automatically in the
-project's working directory on first run.
+project's working directory on first run, pre-filled with sample data
+(delete the file if you ever want to start over with a clean, empty database).
 
 ## Screenshots
 
