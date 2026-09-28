@@ -1,0 +1,14 @@
+# Build output
+target/
+*.class
+
+# Database file (generated at runtime)
+*.db
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
