@@ -122,12 +122,8 @@ project's working directory on first run, pre-filled with sample data
 
 ## Screenshots
 
-_Add 2–3 screenshots of the terminal application running here before
-submission, e.g.:_
-
-- Main menu
-- Adding a student / course
-- Class ranking report output
+![Main Menu](screenshots/menu.png)
+![Ranking Report](screenshots/ranking.png)
 
 ## Known Limitations
 
